@@ -1,0 +1,119 @@
+#contact{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modalC{
+    width: 60%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    background-color: #372549;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap:1.8rem
+}
+
+#modalC h2{
+    line-height: 0;
+    padding: 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+#modalC textarea{
+    width: 70%;
+    height: 6.4rem;
+    padding: 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: 0.5px solid #ffffff;
+    border-radius: 5px;
+    outline: none;
+}
+
+#modalC textarea::placeholder{
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #111010;
+}
+
+#modalC button{
+    width: 60%;
+    height: 3.5rem;
+    font-size: 1.2rem;
+    background-color: #712F79;
+    color: rgb(221, 214, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+#modalC button:hover{
+    color: #242331;
+}
+
+@media (max-width: 1024px){
+    #modalC{
+        width: 80%;
+        height: 80%;
+        border-radius: 10px;
+        gap:1.9rem
+    }
+}
+
+@media (min-width: 250px) and (max-width: 480px){
+    #modalC h2{
+        font-size: 1.20rem;
+        width: 85%;
+        line-height: 30px;
+    }
+    #modalC textarea{
+        width: 70%;
+        height: 6.4rem;
+        padding: 12px;
+        font-size: 0.7rem;
+    }
+    
+    #modalC textarea::placeholder{
+        font-size: 0.7rem;
+    }
+
+    #modalC button{
+        width: 70%;
+        height: 2.5rem;
+        font-size: 0.8rem;
+        background-color: #712F79;
+        border-radius: 40px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px){
+    #modalC h2{
+        font-size: 1.35rem;
+        width: 90%;
+        line-height: 33px;
+    }
+    #modalC textarea{
+        width: 75%;
+        height: 6.8rem;
+        padding: 14px;
+        font-size: 0.8rem;
+    }
+    
+    #modalC textarea::placeholder{
+        font-size: 0.8rem;
+    }
+
+    #modalC button{
+        width: 75%;
+        height: 2.7rem;
+        font-size: 0.8rem;
+    }
+}

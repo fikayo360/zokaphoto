@@ -1,0 +1,245 @@
+#about{
+    width: 100vw;
+    height: 70vh;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+#aboutWrap{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    gap:2rem
+}
+
+#aboutLeft{
+    width: 50%;
+    height: 100%;
+}
+
+#aboutLeft img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#AboutLeftBtn{
+    border-color: transparent;
+    display: flex;
+    gap:10px;
+    align-items: center;  
+    justify-content: center;
+    width: 30%;
+    height: 3rem;
+    border-radius: 40px;
+    background-color: rgb(33, 49, 187);
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: #ffffff;
+    font-weight: bold;
+ }
+
+ #aboutACont{
+    width: 25px;
+    height: 25px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background-color: rgb(116, 116, 182);
+ }
+
+ #aboutACont img{
+    width: 14px;
+    height: 14px;
+ }
+
+#aboutRight{
+    width:50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    padding-left: 10px;
+}
+
+#aboutRight h2{
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+#aboutRight h1{
+    font-size: 5.7rem;
+    line-height: 110px;
+    font-weight: bold;
+    margin: 0;
+    width: 80%;
+}
+
+#aboutRight p{
+    font-size: 1.1rem;
+    line-height: 40px;
+    width: 60%;
+}
+
+#aboutRight h1,#aboutRight p{
+    text-align: left;
+}
+
+@media (max-width: 1024px){
+    #about{
+        height: 100vh;
+        padding-top: 1rem;
+    }
+    #aboutWrap{
+        width: 100%;
+        gap:2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    #aboutLeft{
+        height: 50%;
+        width: 100%;
+    }
+    #aboutRight{
+        width:100%;
+        height: 50%;
+        align-items: center;
+        padding-left: 0px;
+        padding-bottom: 1rem;
+    }
+    #aboutRight h1,#aboutRight p{
+        text-align: center;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 480px){
+
+    #aboutRight{
+        gap:1rem
+    }
+
+    #aboutRight h2{
+        font-size: 1.3rem
+    }
+    
+    #aboutRight h1{
+        font-size: 2rem;
+        line-height: 30px;
+        width: 80%;
+    }
+    
+    #aboutRight p{
+        font-size: 1.2rem;
+        line-height: 30px;
+        width: 70%;
+    }
+
+    #AboutLeftBtn{
+        gap:10px;
+        width: 55%;
+        height: 3.5rem;
+        font-size: 1rem;
+     }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    #aboutRight{
+        gap:1rem
+    }
+
+    #aboutRight h2{
+        font-size: 1.3rem
+    }
+    
+    #aboutRight h1{
+        font-size: 3.3rem;
+        line-height: 55px;
+        width: 85%;
+    }
+    
+    #aboutRight p{
+        font-size: 1.3rem;
+        line-height: 33px;
+        width: 74%;
+    }
+
+    #AboutLeftBtn{
+        gap:13px;
+        width: 50%;
+        height: 3.6rem;
+        font-size: 1rem;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    #aboutRight{
+        gap:1.5rem
+    }
+
+    #aboutRight h2{
+        font-size: 1.4rem
+    }
+    
+    #aboutRight h1{
+        font-size: 3.5rem;
+        line-height: 60px;
+        width: 87%;
+    }
+    
+    #aboutRight p{
+        font-size: 1.4rem;
+        line-height: 37px;
+        width: 77%;
+    }
+
+    #AboutLeftBtn{
+        gap:15px;
+        width: 55%;
+        height: 3.8rem;
+        font-size: 1.1rem;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1450px){
+
+    #aboutRight{
+        padding-left: 20px;
+        gap: 1rem;
+    }
+    
+    #aboutRight h1{
+        font-size: 4.8rem;
+        line-height: 80px;
+        width: 85%;
+    }
+    
+    #aboutRight p{
+        font-size: 1.4rem;
+        line-height: 35px;
+        width: 80%;
+    }
+
+    #AboutLeftBtn{
+        gap:15px;
+        width: 50%;
+        height: 3.3rem;
+        font-size: 1.1rem;
+     }
+}
+
+@media (min-width: 1025px) {
+    #aboutRight{
+        padding-left: 15px;
+        gap: 1rem;
+    }
+    #about{
+        height: 80vh;
+        padding-top: 3rem;
+    }
+}
