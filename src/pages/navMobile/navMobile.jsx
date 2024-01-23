@@ -6,8 +6,10 @@ const NavMobile = ({navActive}) => {
     return (
     <div id="navMobile" ref={ref} className={`${inView?'animate__animated animate__fadeInLeft animate__slow':''}`}>
         <div id="navMobileHead">
+            <div id="headWrap">
             <h1>ZOKA</h1>
             <img src='./x.png' onClick={navActive} />
+            </div>
         </div>
 
         <ul id="navMobileBody">

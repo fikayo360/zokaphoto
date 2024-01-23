@@ -2,28 +2,28 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    overflow: hidden;
     z-index: 10;
     display: flex;
     flex-direction: column;
-    background: #cb2d3e;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #cb2d3e;
+    background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);
+    background: linear-gradient(to right, #ef473a, #cb2d3e); 
 }
 
 #navMobileHead{
-    width: 90%;
+    width: 100%;
     height: 7%;
-    border-bottom: 1px solid slategrey;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding-left: 0.8rem;
-    padding-right: 0.8rem;
-    overflow: hidden;
+}
+
+#headWrap{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #navMobileHead h1{
@@ -75,10 +75,5 @@
     #navMobileBody{
         gap:2rem;
         height: 80%;
-    }
-
-    #navMobileHead{
-        width: 93%;
-        padding-right: 1rem;
     }
 }
