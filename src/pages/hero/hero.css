@@ -94,7 +94,7 @@
     border-radius: 40px;
     display: flex;
     justify-content: center;
-    align-items:center ;
+    align-items:center;
     background-color: rgb(116, 116, 182);
  }
 
@@ -181,16 +181,20 @@
    #burger{
       display: block;
    }
+
    #heroMain{
       width: 100%;
-      height: 90%;
+      height: auto;
       flex-direction: column;
-      margin-top: 1rem;
-      align-items: center;
+      margin-top: 0rem;
       justify-content: center;
+      padding: 0px;
+      margin: 0px;
+
    }
+
    #nav{
-      height: 6%;
+      height: 8%;
    }
 
    #mainLeft{
@@ -201,6 +205,7 @@
       justify-content: center;
       align-items: center;
    }
+
    #mainRight{
       width: 100%;
       display: flex;
@@ -221,7 +226,9 @@
    }
 
    #mainLeft{
-      height: 50%;
+      height: auto;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
    }
 
    #mainRight{
@@ -230,8 +237,8 @@
  
    #mainLeftH{
       width: 80%;
-      font-size: 2.2rem;
-      line-height: 35px;
+      font-size: 2rem;
+      line-height: 30px;
       text-align: center;
       margin: 0;
    }
@@ -241,8 +248,8 @@
       font-size: 1.1rem;
       line-height:25px;
       text-align: center;
-      margin-top: 1.7rem;
-      margin-bottom: 1.7rem;
+      margin-top: 0rem;
+      margin-bottom: 0rem;
    }
 }
 

@@ -54,13 +54,13 @@
 @media (max-width: 1024px){
     #other{
         width: 100vw;
-        height: 100vh;
-        gap: 2rem;
-        padding-top: 0rem;
+        height: auto;
+        gap: 1.5rem;
+        padding:20px
     }
 
     #floralWrap{
-        width: 95%;
+        width: 100%;
         display: flex;
         align-items: center;
         gap:10px;

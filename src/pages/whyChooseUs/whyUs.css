@@ -56,8 +56,9 @@
 
 @media (max-width:1024px){
     #whyUs{
-        height: 90vh;
-        padding-top: 1rem;
+        height: auto;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
     }
 
     #whyWrap{
@@ -74,8 +75,8 @@
    
     .item{
         width: 90%;
-        gap:15px;
-        padding: 10px;
+        gap:5px;
+        padding: 5px;
     }
     
     .item h2{

@@ -33,26 +33,13 @@
     border-radius: 20px;
 }
 
-@media (min-width: 250px) and (max-width:640px){
-    #gallery{
-        width: 100%;
-        flex-wrap: nowrap;
-        gap:10px;
-        margin-bottom: 1rem;
-        flex-direction: column;
-        align-items: center;
-    }
-    .galleryItem{
-        width: 80%;
-        height: 350px;
-    }
+@media (max-width:1024px){
+    #portfolio{
+        padding-top: 4rem;
+    }   
 }
 
 @media (min-width: 250px) and (max-width:640px){
-    #portfolio{
-        padding-top: 1.5rem;
-    }
-
     #gallery{
         width: 100%;
         flex-wrap: nowrap;
@@ -62,7 +49,7 @@
         align-items: center;
     }
     .galleryItem{
-        width: 80%;
+        width: 90%;
         height: 350px;
     }
 }
