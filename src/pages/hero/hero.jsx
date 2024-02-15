@@ -12,17 +12,7 @@ const Hero = () => {
   
      const toggleMobileNav = () => {
         setNavActive((prev) => !prev)
-        console.log('hi')
      }
-
-     useGSAP(() => {
-        gsap.fromTo("#mainLeftH", {y:-40 }, { y:3,ease:"slow(0.7,0.7,false)",delay:0.5,scrollTrigger: {
-            trigger: "#hero",
-            start: "top top",
-            end: "+=500",
-            scrub: 1,
-          }});
-      })
 
     return (
         <section id='hero'>
