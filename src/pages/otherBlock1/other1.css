@@ -1,157 +1,92 @@
-#other{
+#testimonials{
     width: 100vw;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
-    padding-top: 4rem;
+    background-color: #181818;
+     padding-top: 5rem;
+     display: flex;
+     flex-direction: column;
+     gap:2rem;
+     align-items: center;
+
 }
 
-#otherTop{
-    width:80%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-#otherTop h1{
-    line-height: 0;
-    font-size: 1.4rem;
+#head1{
+    font-size: 1.5rem;
     font-weight: bold;
-    text-align: left;
-    width: 40%;
 }
 
-#otherTop p{
+#head2{
     font-size: 1.1rem;
-    line-height: 30px;
-    text-align: left;
-    width: 40%;
 }
 
-#floralWrap{
-    width: 80%;
+#head2,#head1{
+    color:#ffffff
+}
+
+#tCont{
+    width: 70%;
+    height: auto;
     display: flex;
-    justify-content: space-between;
-    gap:15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 25px;
 }
 
-.floral{
-    width: 31%;
-    height: 400px;
+.testimonial{
+    width: 300px;
+    border: 0.1px solid rgb(176, 137, 207);
+    color: #ffffff;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding:20px;
+    border-radius: 4px;
+    background-color: transparent;
 }
 
-.floral img{
+.testimonial .testiUp{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.testimonial .testiUp img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.testimonial .testiUp .testiUpCol{
+    display: flex;
+    flex-direction: column;
+    gap:3px;
+    
+}
+
+.testimonial .testiUp .testiUpCol h2{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.testimonial .testiUp .testiUpCol h1{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #b6afaf;
+}
+
+.testimonial .testiDown{
+    font-size: 0.7rem;
+    line-height: 18px;
     width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    object-fit: cover;
+    color: #ffffff;
+    text-align: left;
 }
 
-
-@media (max-width: 1024px){
-    #other{
-        width: 100vw;
-        height: auto;
-        gap: 1.5rem;
-        padding:20px
-    }
-
-    #floralWrap{
+@media(min-width:250px) and (max-width: 1024px){
+    #tCont{
         width: 100%;
-        display: flex;
-        align-items: center;
-        gap:10px;
-        height: 60%;
-    }
-
-    #otherTop{
-        width:100%;
-        height: 40%;
-        padding: 10px;
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-@media (min-width: 250px) and (max-width: 768px){
-    #other{
-        width: 100vw;
-        height: 70vh;
-        gap: 2rem;
-        padding-bottom: 1rem;
-    }
-    
-    #otherTop{
-        width:100%;
-        height: 50%;
-        padding: 20px;
-        align-items: center;
-    }
-
-    #otherTop h1{
-        font-size: 1.2rem;
-        font-weight: bold;
-        text-align: center;
-        width: 80%;
-    }
-    
-    #otherTop p{
-        font-size: 0.9rem;
-        line-height: 28px;
-        text-align: center;
-        width: 70%;
-    }
-    .floral{
-        width: 32%;   
-        height: 250px;
-    }
-}
- 
-@media (min-width: 769px) and (max-width: 1024px){
-    #other{
-        width: 100vw;
-        height: 80vh;
-        gap: 2rem;  
-        padding-bottom: 1.2rem;
-    }
-    
-    #otherTop{
-        width:100%;
-        height: 47%;
-        padding: 23px;
-        align-items: center;
-    }
-
-    #otherTop h1{
-        font-size: 1.3rem;
-        font-weight: bold;
-        text-align: center;
-        width: 80%;
-    }
-    
-    #otherTop p{
-        font-size: 1rem;
-        line-height: 30px;
-        text-align: center;
-        width: 74%;
-    }
-    .floral{
-        width: 32%;
-        height: 280px;
-    }
-}
-
-@media (min-width: 1025px){
-    #other{
-        width: 100vw;
-        height: 80vh;
-        gap: 2rem;
-        padding-bottom: 1.2rem;
-        padding-top: 3rem;
-        margin-top: 10em;
-       
     }
 }

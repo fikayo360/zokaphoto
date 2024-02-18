@@ -16,6 +16,7 @@ const NavMobile = ({navActive}) => {
             <li ref={ref} onClick={navActive}><a href='#hero' className={`${inView?'animate__animated animate__fadeInDownBig  animate__delay-1s':''}`}>Home</a></li>
             <li ref={ref} onClick={navActive}><a href='#about' className={`${inView?'animate__animated animate__fadeInDownBig animate__delay-1s':''}`}>About</a></li>
             <li ref={ref} onClick={navActive}><a href='#whyUs' className={`${inView?'animate__animated animate__fadeInDownBig animate__delay-1s':''}`}>WhyUs</a></li>
+            <li ref={ref} onClick={navActive}><a href='#testimonials' className={`${inView?'animate__animated animate__fadeInDownBig animate__delay-1s':''}`}>testimonial</a></li>
             <li ref={ref} onClick={navActive}><a href='#portfolio' className={`${inView?'animate__animated animate__fadeInDownBig animate__delay-1s':''}`}>Portfolio</a></li>
             <li ref={ref} onClick={navActive}><a href='#contact' className={`${inView?'animate__animated animate__fadeInDownBig animate__delay-1s':''}`}>Contact</a></li>
         </ul>

@@ -27,8 +27,8 @@
 }
 
 #modalC textarea{
-    width: 70%;
-    height: 6.4rem;
+    width: 60%;
+    height: 6rem;
     padding: 10px;
     font-size: 0.8rem;
     font-weight: bold;
@@ -44,9 +44,9 @@
 }
 
 #modalC button{
-    width: 60%;
+    width: 30%;
     height: 3.5rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     background-color: #712F79;
     color: rgb(221, 214, 214);
     display: flex;

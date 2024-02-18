@@ -1,22 +1,21 @@
 #whyUs{
     width: 100vw;
-    height: 30vh;
+    height: auto;
+    padding-top:3rem;
+    padding-bottom: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 4rem;
 }
 
 #whyUs h1{
     font-size: 1.1rem;
-    margin-bottom: 2rem;
 }
 
 #whyWrap{
     width: 70%;
     display: flex;
     justify-content: space-between;
-    margin-top: 4rem;
 }
 
 .item{
